@@ -313,19 +313,116 @@
   <div class="nav-backdrop" id="nav-backdrop"></div>
 
   <div class="hero">
-    <h1>Build and deploy on the AI Cloud.<br></h1>
-    <p>Vercel provides the developer tools and cloud infrastructure to build, scale, and secure a faster, more
-      personalized web.
+    <div class="hero-grid-wrap">
 
-    </p>
-    <div class="hero-actions">
-      <a href="#" class="btn-solid hero-btn">
-        <svg width="13" height="12" viewBox="0 0 76 65" fill="currentColor">
-          <path d="M37.5274 0L75.0548 65H0L37.5274 0Z" />
+      <!-- Single unified grid: row 1 = text (auto height), rows 2-6 = colored grid cells -->
+      <div class="hero-grid">
+
+        <!-- Row 1: text spans all 8 columns, no grid lines in background -->
+        <div class="hero-text-cell">
+          <div class="hero-content">
+            <h1>Build and deploy<br>on the AI Cloud.</h1>
+            <p>Vercel provides the developer tools and cloud infrastructure<br>to build, scale, and secure a faster,
+              more personalized web.</p>
+            <div class="hero-actions">
+              <a href="#" class="btn-solid hero-btn">
+                <svg width="13" height="12" viewBox="0 0 76 65" fill="currentColor">
+                  <path d="M37.5274 0L75.0548 65H0L37.5274 0Z" />
+                </svg>
+                Start Deploying
+              </a>
+              <a href="#" class="btn-dark hero-btn">Get a Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rows 2-4: 8 cols × 3 rows = 24 colored grid cells -->
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+        <div class="hg-cell"></div>
+
+      </div>
+
+      <!-- Spectrum gradient — sits over the lower 5 rows only -->
+      <div class="hero-grid-gradient"></div>
+
+      <!-- Triangle — bottom-center, over the lower rows -->
+      <div class="hero-triangle-wrap">
+        <svg class="hero-triangle-svg" viewBox="0 0 400 346" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <radialGradient id="baseFade" cx="50%" cy="105%" r="55%" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0"
+              y2="346">
+              <stop offset="0%" stop-color="#000" stop-opacity="0.9" />
+              <stop offset="60%" stop-color="#000" stop-opacity="0" />
+            </radialGradient>
+          </defs>
+          <!-- Dark fill -->
+          <polygon points="200,2 398,344 2,344" fill="#060606" />
+          <!-- Outer border -->
+          <polygon points="200,2 398,344 2,344" fill="none" stroke="rgba(255,255,255,0.78)" stroke-width="1.2" />
+          <!-- Concentric lines emerging from base corners — 30 lines, 10px apex steps, top at y=5 -->
+          <polyline points="2,344 200,5   398,344" fill="none" stroke="rgba(255,255,255,0.52)" stroke-width="0.8" />
+          <polyline points="2,344 200,24  398,344" fill="none" stroke="rgba(255,255,255,0.10)" stroke-width="0.8" />
+          <polyline points="2,344 200,34  398,344" fill="none" stroke="rgba(255,255,255,0.48)" stroke-width="0.8" />
+          <polyline points="2,344 200,44  398,344" fill="none" stroke="rgba(255,255,255,0.09)" stroke-width="0.8" />
+          <polyline points="2,344 200,54  398,344" fill="none" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" />
+          <polyline points="2,344 200,64  398,344" fill="none" stroke="rgba(255,255,255,0.09)" stroke-width="0.8" />
+          <polyline points="2,344 200,74  398,344" fill="none" stroke="rgba(255,255,255,0.42)" stroke-width="0.8" />
+          <polyline points="2,344 200,84  398,344" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="0.8" />
+          <polyline points="2,344 200,94  398,344" fill="none" stroke="rgba(255,255,255,0.39)" stroke-width="0.8" />
+          <polyline points="2,344 200,104 398,344" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="0.8" />
+          <polyline points="2,344 200,114 398,344" fill="none" stroke="rgba(255,255,255,0.36)" stroke-width="0.8" />
+          <polyline points="2,344 200,124 398,344" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="0.8" />
+          <polyline points="2,344 200,134 398,344" fill="none" stroke="rgba(255,255,255,0.33)" stroke-width="0.8" />
+          <polyline points="2,344 200,144 398,344" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="0.8" />
+          <polyline points="2,344 200,154 398,344" fill="none" stroke="rgba(255,255,255,0.30)" stroke-width="0.8" />
+          <polyline points="2,344 200,164 398,344" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="0.8" />
+          <polyline points="2,344 200,174 398,344" fill="none" stroke="rgba(255,255,255,0.27)" stroke-width="0.8" />
+          <polyline points="2,344 200,184 398,344" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="0.8" />
+          <polyline points="2,344 200,194 398,344" fill="none" stroke="rgba(255,255,255,0.24)" stroke-width="0.8" />
+          <polyline points="2,344 200,204 398,344" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="0.8" />
+          <polyline points="2,344 200,214 398,344" fill="none" stroke="rgba(255,255,255,0.21)" stroke-width="0.8" />
+          <polyline points="2,344 200,224 398,344" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="0.8" />
+          <polyline points="2,344 200,234 398,344" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.8" />
+          <polyline points="2,344 200,244 398,344" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="0.8" />
+          <polyline points="2,344 200,254 398,344" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.8" />
+          <polyline points="2,344 200,264 398,344" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="0.8" />
+          <polyline points="2,344 200,274 398,344" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="0.8" />
+          <polyline points="2,344 200,284 398,344" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="0.8" />
+          <polyline points="2,344 200,294 398,344" fill="none" stroke="rgba(255,255,255,0.10)" stroke-width="0.8" />
+          <polyline points="2,344 200,304 398,344" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="0.8" />
+          <polyline points="2,344 200,314 398,344" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="0.8" />
+          <polyline points="2,344 200,324 398,344" fill="none" stroke="rgba(255,255,255,0.02)" stroke-width="0.8" />
+          <polyline points="2,344 200,334 398,344" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="0.8" />
+          <!-- Dark base fade -->
+          <polygon points="200,2 398,344 2,344" fill="url(#baseFade)" />
         </svg>
-        Start Deploying
-      </a>
-      <a href="#" class="btn-dark hero-btn">Get a Demo</a>
+      </div>
+
+      <!-- Bottom-right crosshair -->
+      <div class="hg-corner-marker hg-corner-br"></div>
+
     </div>
   </div>
 
